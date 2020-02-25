@@ -8,3 +8,12 @@ int main(int argc, char *argv[])
   printf("%d + %d = %d\n", a, b, suma(a, b));
   return 0;
 } 
+
+void __c_copy(char *orig, char *dest, int tam)  
+{
+ int i;
+ for(i=0;i<tam;i++)
+ {
+           dest[i]=orig[i];
+    }
+} 
