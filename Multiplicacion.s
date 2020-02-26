@@ -1,0 +1,6 @@
+ORG 100h
+MOV AL, 200 ; AL = 0C8h
+MOV BL, 4
+MUL BL ; AX = 0320h (800)
+
+RET
